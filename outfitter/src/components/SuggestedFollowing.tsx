@@ -2,11 +2,11 @@ import React from "react";
 
 const SuggestedFollowing = () => {
   return (
-    <div className="h-1/3 w-3/4 flex-col mx-auto p-3">
+    <div className="h-2/5 w-3/4 flex-col mx-auto pt-4">
       <div className="h-full">
-        <header className="flex flex-row justify-between pb-4">
-          <h1 className="font-bold"> Suggested For You </h1>
-          <a href="" className=" px-2">
+        <header className="flex flex-row w-full pb-4">
+          <h1 className="font-bold w-1/2"> Suggested For You </h1>
+          <a href="" className=" px-2 mx-auto">
             <h3 className=" font-semibold"> See all </h3>
           </a>
         </header>

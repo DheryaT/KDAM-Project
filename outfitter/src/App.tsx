@@ -6,6 +6,7 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import Feed from "./components/Feed";
 import Controlbar from "./components/Controlbar";
 import SuggestedFollowing from "./components/SuggestedFollowing";
+import SavedImages from "./components/SavedImages";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           </div>
           <div className="h-full">
             <SuggestedFollowing />
+            <SavedImages />
           </div>
         </div>
       </div>
