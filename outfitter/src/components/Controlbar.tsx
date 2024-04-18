@@ -1,6 +1,6 @@
 import React from "react";
 
-const Controlbar = () => {
+const ControlBar = () => {
   return (
     <div className=" grid grid-rows-1 grid-cols-3 flex-row pl-4 pt-4 pb-4 w-full">
       <div>
@@ -14,4 +14,4 @@ const Controlbar = () => {
   );
 };
 
-export default Controlbar;
+export default ControlBar;
