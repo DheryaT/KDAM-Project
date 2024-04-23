@@ -24,7 +24,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-5">
           <div>
             <ControlBar />
           </div>
